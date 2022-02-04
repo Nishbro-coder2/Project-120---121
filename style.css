@@ -1,0 +1,25 @@
+#logo{
+    align-items: center;
+    text-align: center;
+}
+.rating{
+    color: yellow;
+}
+.items{
+    background-color: rgb(23, 151, 44);
+    text-align: center;
+}
+.results{
+    color: white;
+}
+.heading{
+    font-weight: bold;
+    color: yellow;
+}
+#winner{
+    font-weight: bold;
+    color: goldenrod;
+}
+.win{
+    text-align: center;
+}

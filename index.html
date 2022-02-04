@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title>Google Lens vs Mobile Net</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+            <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <h1>Case study between GOOGLE LENS and MOBILENET</h1>
+    <div id="logo">
+        <img src="Google lens.png">
+        <br>
+        <h3 id="vs">VS</h3>
+        <br>
+        <img src="MobileNet.png">
+        <hr>
+    </div>
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Bottle</h2>
+        <img src="Bottle.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Cello puro steel</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Highlighter</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Innaccurate</h3>
+    </span>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Chair</h2>
+        <img src="Chair.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Sk dining chair</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Fridge</h2>
+        <br><br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Innaccurate</h3>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Clock</h2>
+        <img src="Clock.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Seiko clock</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Isonele Wall clock</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Wrong company but correct thing</h3>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Devoloper cards</h2>
+        <img src="Devoloper cards.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Whitehat jr devolopers cards</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - iso silloscope</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Innaccurate</h3>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Fan</h2>
+        <img src="Fan.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Ceiling fan</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Ceiling fan</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Perfect</h3>
+    </span>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Google Docs</h2>
+        <img src="Google Docs.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Google docs</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Logo</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Perfect</h3>
+    </span>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Laptop</h2>
+        <img src="Laptop.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - HP laptop</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Mouse</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Innaccurate</h3>
+    </span>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Pipe Piece</h2>
+        <img src="Pipe piece.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Volkswagen Transporter</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Pipe piece</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Innacurate</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Perfect and detailed</h3>
+    </span>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Tube light</h2>
+        <img src="Light bulb.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - Tube light</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Light</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Perfect</h3>
+    </span>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span class="col-xs-12 items">
+        <h2 class="heading">Test Image - Watch</h2>
+        <img src="Watch.jpeg" width="200px" height="200px">
+        <br>
+        <h2 class="results">Results in GOOGLE LENS - ubay children watch</h2>
+        <br>
+        <h2 class="results">Results in MOBILENET - Microwave oven</h2>
+        <br><br>
+        <h3 class="rating">Rating - GOOGLE LENS - Perfect and Detailed</h3>
+        <br>
+        <h3 class="rating">Rating - MOBILENET - Innaccurate</h3>
+        <br><br><br><br><br><br>
+        <h1 class="win" id="winner">Winner : GOOGLE LENS!!!!!</h1>
+    </span>
+</body>
